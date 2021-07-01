@@ -35,7 +35,6 @@ function onSelectTheme(evt) {
  function reload() {
     const saveTheme = localStorage.getItem('theme');
    if (saveTheme) {
-     console.log('saveTheme :>> ', saveTheme);
      if (saveTheme === 'dark-theme') {
        inputEl.checked = true;
        bodyEl.classList.add(Theme.DARK);
