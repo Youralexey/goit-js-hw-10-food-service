@@ -1,4 +1,4 @@
-import './styles.css';
+import './style.css';
 import menu from './menu.json';
 import menuItemsTemplate from './menu-items.hbs';
 
