@@ -17,7 +17,6 @@ const Theme = {
 
 reload();
 
-
 inputEl.addEventListener('change', onSelectTheme);
 
 function onSelectTheme(evt) {
