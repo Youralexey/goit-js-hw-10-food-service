@@ -21,7 +21,7 @@ inputEl.addEventListener('change', onSelectTheme);
 
 function onSelectTheme(evt) {
   evt.preventDefault();
-  bodyEl.classList.add(Theme.LIGHT);
+  bodyEl.classList.toggle(Theme.LIGHT);
   bodyEl.classList.toggle(Theme.DARK);
   
   if (bodyEl.classList.value === 'light-theme') {
